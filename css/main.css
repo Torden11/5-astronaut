@@ -1,6 +1,4 @@
-header,
-main,
-footer {
+.container {
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
@@ -17,44 +15,46 @@ footer {
 
 /*header style*/
 
-    img {
+    .logo {
         float: left
     }
 
-    nav {
+    .main-nav {
         float: right;
         }
 
-    nav > a {
+    .main-nav > .link {
         color: #333;
         text-decoration: none;
         font-size: 20px;
         margin-right: 50px;
     }
-    nav > a:last-child {
+    .main-nav > .link:last-child {
         margin: 0;
     }
-    nav > a:hover {
+    .main-nav > a:hover {
         color: #664499;
         cursor: pointer;
         text-decoration: underline;
         }
 
-        /*main style*/
+/*main style*/
         
         main {
             margin: 60px calc(50% - 500px);
         }
 
-        /* footer style */
+/* footer style */
 
-        div {
+        .socials {
             float: left;
         }
-        div a {
+
+        
+        .socials {
 
         }
-        p {
+        .copyright {
             float: right;
             margin-top: 0;
         }
