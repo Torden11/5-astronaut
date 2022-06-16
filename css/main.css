@@ -51,6 +51,14 @@
             font-weight:100;
             display: block;
         }
+        .main-title::after {
+            display: block;
+            content: '';
+            width: 120px;
+            height: 3px;
+            margin-top: 10px;
+            background-color: #649;
+        }
 
         .description {
             font-size: 20px;
