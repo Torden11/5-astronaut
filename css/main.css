@@ -19,16 +19,16 @@
         float: right;
         }
 
-    .main-nav > .link {
+    .main-nav .link {
         color: #333;
         text-decoration: none;
         font-size: 20px;
         margin-right: 50px;
     }
-    .main-nav > .link:last-child {
+    .main-nav .link:last-child {
         margin: 0;
     }
-    .main-nav > a:hover {
+    .main-nav .link:hover {
         color: #664499;
         cursor: pointer;
         text-decoration: underline;
@@ -45,10 +45,14 @@
         .socials {
             float: left;
         }
+    
+        .socials a {
+            color: blue
 
-        
-        .socials {
+        }
 
+        .socials a:hover {
+            color: red
         }
         .copyright {
             float: right;
