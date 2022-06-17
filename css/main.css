@@ -39,11 +39,12 @@
         .left-column {
             width: 40%;
             float: left;
-            margin-top: 150px;
+            margin-top: 60px;
         }
 
         .main-title {
             margin: 0;
+            margin-bottom: 1em;
             font-size: 60px;
         }
 
@@ -62,7 +63,9 @@
 
         .description {
             font-size: 20px;
-        }
+            margin: 0.5em 0;
+            color:#649;
+            }
 
         .right-column {
             width: 60%;
